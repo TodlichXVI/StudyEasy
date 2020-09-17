@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #333330;
+    color: #fad24dbc;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    background-color: rgb(119, 117, 117);
+    height: 100%;
+    font-size: 50;
+    margin: 11;
+    color:#fad24d;
+    text-decoration: none;
+    float: left;
+    z-index: 33;
+}
+a:hover{
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #91a39ec9;  
+}
+#PeriodicsEz{    
+    text-align: center;
+    position: relative;
+    font-size: 300%;
+    z-index:-2; 
+    padding-right: 78px;
+}
+#subtext {
+    text-align: center;    
+    position: relative;
+    top: -45px;
+}

@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+a{
+    color: rgb(24, 131, 194);
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    color: rgb(25, 66, 90);
+}
+
+ul {
+    list-style-type: "➢";
+    list-style-position: inside;
+    padding-inline-start: 0px;
+    padding-top: 10px;
+    
+}
+ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+h2 {
+    text-align: center;
+}
+
+.container + .contents {
+    padding-top: 92px; }
+  .container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    margin: auto; }
+  #header{
+    position: relative;
+    width: 100%;
+  }
+.materials {
+    position: relative;
+    text-align: center;
+    
+}

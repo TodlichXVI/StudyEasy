@@ -1,0 +1,113 @@
+.contents {
+  position: relative;
+  font-family: "Nunito" }
+.latest{
+  background-color:whitesmoke;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 40px;
+}
+.courses{
+  background-color: white;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 40px;
+}
+.slideshow{
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+.aboutus{
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9) !important;
+  background-color: #303133;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.aboutus span {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #e6e6e6;
+  border-style: dotted;
+  line-height: 1;
+  padding-left: 10px;
+}
+.contactus{
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #262626;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.contactus span {
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  border-style: dotted;
+  line-height: 1;
+  padding-left: 10px;
+}
+#page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+.container + .contents {
+  padding-top: 92px; }
+.container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  margin: auto; }
+#header{
+  position: relative;
+  width: 100%;
+}
+p {
+  font-size: 20px;
+}
+span { 
+  font-size: 30px;
+  display: inline-block;
+  color: #303133;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+iframe.latest{
+  position: relative;
+  display: inline-block;    
+}
+body {
+  line-height: 2;
+}
+.text{
+  width: 50%;
+  display:inline-block;    
+}
+a {
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  background-color: #fad24d;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover{
+  background-color: rgb(211,211,211);
+}

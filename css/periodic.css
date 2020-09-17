@@ -1,0 +1,28 @@
+body{
+    background-color:whitesmoke;
+}
+.container + .contents {
+    padding-top: 92px; }
+  .container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    margin: auto; }
+  #header{
+    position: relative;
+    width: 100%;
+  }
+.text{
+    text-align: center;
+}
+.contents{
+    text-align: center;
+}
+.timestamps {
+    font-family: Calibri;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
